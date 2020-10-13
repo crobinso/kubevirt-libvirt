@@ -15,6 +15,7 @@ for ARCH in ${TARGET_ARCHITECTURES}; do
     TAG="${ARCH}"
     DOCKER_PLATFORM="linux/${ARCH}"
 
+    # foo
     docker buildx build \
         --progress=plain \
         --load \
