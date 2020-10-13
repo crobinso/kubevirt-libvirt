@@ -1,6 +1,6 @@
 FROM fedora:@FEDORA_VERSION@
 
-LABEL maintainer="The KubeVirt Project <kubevirt-dev@googlegroups.com>"
+LABEL maintainer="The zzzKubeVirt Project <kubevirt-dev@googlegroups.com>"
 
 RUN dnf install -y dnf-plugins-core && \
     dnf copr enable -y @virtmaint-sig/for-kubevirt-@COPR_VERSION@ && \
